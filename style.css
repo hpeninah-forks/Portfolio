@@ -1,0 +1,115 @@
+/*---font for page---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&family=Merriweather:ital,wght@0,400;1,900&family=Oswald&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+
+/* Style the header */
+.header {
+  background-color: #d6592f;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color:#e8a38c;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color:#e8a38c;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Style the Intro, About and Contact Info */
+.intro, .about, .contact {
+  background-color: #f6dad1;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Architects Daughter', cursive;
+  color:#bb4a25;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color:#dc714e;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Styling Lists */
+
+li {
+  padding: 10px 10px;
+  font-family: 'Merriweather', serif;
+  color:#dc714e;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Styling Links */
+a{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+a:link { color:#c0621f; }
+a:visited { color: #a0521a;}
+a:hover { color: #e79d69;}
+a:active { color: #f0c1a0; }
+
+/* Style the footer */
+.footer {
+  background-color: #bb4a25;
+  padding: 10px;
+  text-align: center; 
+}
+
+.footer p {
+  font-family:'Oswald', sans-serif;
+  color:#e28a6d;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ---diamond line break--- */
+
+hr {
+  width: 5px;
+  height: 5px;
+  border: none;
+  background: #9b3e1f;
+  color: #9b3e1f;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: rotate(45deg);
+}
+
+/* --- image --- */
+
+img {
+  width: 200px;
+}
+
+.image-circle {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
